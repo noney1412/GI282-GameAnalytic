@@ -9,17 +9,28 @@ NOTE:
 **/
 #endregion
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Avartar_Matching.UIs;
 using UnityEngine;
 
-namespace Avartar_Matching.Engines
+namespace Avartar_Matching.Gameplay
 {
     public class Starter : MonoBehaviour
     {
+        [Header("Start Panel")]
+        public StartPanel panel;
+
         private void Start()
         {
-            
+            panel.start.onClick.AddListener(StartGame);
+        }
+
+        private void StartGame()
+        {
+            panel.gameObject.SetActive(false);
+            GetComponent<Leveler>().StartLevel(1);
         }
     }
 }

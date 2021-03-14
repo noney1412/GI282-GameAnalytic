@@ -1,6 +1,0 @@
-Control Flow:
-    Each Level:
-        ☐ Gets list of avatars
-        ☐ Build list of Card: Prefabs
-        ☐ Randomly selects 9 avatars from all of them
-        ☐ Shuffles the list

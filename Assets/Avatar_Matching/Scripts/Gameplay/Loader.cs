@@ -12,6 +12,7 @@ NOTE:
 using System.Collections;
 using System.Collections.Generic;
 using Avartar_Matching.Cards;
+using Avartar_Matching.Cards.Statics;
 using UnityEngine;
 
 namespace Avartar_Matching.Gameplay
@@ -32,9 +33,14 @@ namespace Avartar_Matching.Gameplay
             {
                 var prefab = Instantiate<Card>(cardPrefab, parent);
                 prefab.name = card.name;
+                prefab.avatar = card;
+                prefab.placeholder = placeholder;
                 prefab.SetImage(placeholder);
                 prefab.gameObject.SetActive(false);
+                CardStaticProfile.all.Add(prefab);
             }
+
+            print(CardStaticProfile.all.Count);
         }
     }
 }

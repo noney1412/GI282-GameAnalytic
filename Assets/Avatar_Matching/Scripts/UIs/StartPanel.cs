@@ -9,17 +9,17 @@ NOTE:
 **/
 #endregion
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-namespace Avartar_Matching.Cards
+namespace Avartar_Matching.UIs
 {
-    public class CardFactory
+    public class StartPanel : MonoBehaviour
     {
-        public static Card Create(Sprite sprite)
-        {
-            return new Card();
-        }
+        public Text tile;
+        public Button start;
     }
 }

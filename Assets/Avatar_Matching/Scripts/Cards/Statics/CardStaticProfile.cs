@@ -14,10 +14,10 @@ using System.Collections.Generic;
 using Avartar_Matching.Cards;
 using UnityEngine;
 
-namespace Avartar_Matching.Gameplay
+namespace Avartar_Matching.Cards.Statics
 {
     public class CardStaticProfile
     {
-        public static List<Card> all;
+        public static List<Card> all = new List<Card>();
     }
 }

@@ -13,21 +13,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Avartar_Matching.Avatars
+namespace Avartar_Matching.Cards.Services
 {
-    public class Avatar : MonoBehaviour
+    public static class Matching
     {
-        public List<Sprite> all;
-
-        public new string name;
-    }
-
-    public static class AvatarExtension
-    {
-        public static bool MatchBy(this Avatar self, Avatar other)
+        public static bool MatchByName(this Card self, Card other)
         {
             return self.name.Equals(other.name);
         }
     }
-
 }

@@ -19,6 +19,8 @@ namespace Avartar_Matching.Cards
     public class Card : MonoBehaviour
     {
         public new string name;
+        public Sprite avatar;
+        public Sprite placeholder;
 
         public void Flip()
         {
@@ -28,6 +30,17 @@ namespace Avartar_Matching.Cards
         public void SetImage(Sprite image)
         {
             GetComponent<Image>().sprite = image;
+        }
+
+        public void SwapImage()
+        {
+            if (GetComponent<Image>().sprite == avatar)
+            {
+                GetComponent<Image>().sprite = placeholder;
+                return;
+            }
+
+            GetComponent<Image>().sprite = avatar;
         }
     }
 }
