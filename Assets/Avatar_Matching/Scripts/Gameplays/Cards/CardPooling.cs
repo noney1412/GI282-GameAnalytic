@@ -9,9 +9,11 @@ NOTE:
 **/
 #endregion
 
+using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using Avartar_Matching.Gameplays.Cards;
 using Avartar_Matching.Gameplays.Cards.Statics;
+using UnityEngine;
 
 namespace Avartar_Matching.Gameplays.Cards
 {

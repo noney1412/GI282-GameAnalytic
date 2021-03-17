@@ -13,10 +13,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Avartar_Matching
+namespace Avartar_Matching.Gameplays.Cards.UIs
 {
     public class CardMatchingUI : MonoBehaviour
     {
-    
+
     }
 }

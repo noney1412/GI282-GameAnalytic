@@ -10,7 +10,6 @@ NOTE:
 #endregion
 
 using System.Collections.Generic;
-using Avartar_Matching.UIs;
 using UnityEngine;
 using Avartar_Matching.Gameplays.Cards;
 using Avartar_Matching.Gameplays.Cards.Statics;
@@ -22,35 +21,34 @@ namespace Avartar_Matching.Gameplays
     {
         public void StartLevel(int level)
         {
-            panel.gameObject.SetActive(true);
-            panel.level.text = $"Level {level}";
-            var randoms = CardStaticProfile.all.RandomSlice(9);
+            // panel.gameObject.SetActive(true);
+            // panel.level.text = $"Level {level}";
+            // var randoms = CardStaticProfile.all.RandomSlice(9);
 
-            List<Card> clones = new List<Card>();
-            foreach (var random in randoms)
-            {
-                // pooling to parent
-                random.transform.SetParent(panel.parent.transform);
-                random.gameObject.name = random.name;
-                random.gameObject.SetActive(true);
+            // List<Card> clones = new List<Card>();
+            // foreach (var random in randoms)
+            // {
+            //     // pooling to parent
+            //     random.transform.SetParent(panel.parent.transform);
+            //     random.gameObject.name = random.name;
+            //     random.gameObject.SetActive(true);
 
-                // create clone
-                Card clone = Instantiate<Card>(random, panel.parent.transform);
-                clones.Add(clone);
+            //     // create clone
+            //     Card clone = Instantiate<Card>(random, panel.parent.transform);
+            //     clones.Add(clone);
 
-                // shuffle 
-                foreach (Transform each in panel.parent.transform)
-                {
-                    each.gameObject.SetActive(true);
+            //     // shuffle 
+            //     foreach (Transform each in panel.parent.transform)
+            //     {
+            //         each.gameObject.SetActive(true);
 
-                    int rand = Random.Range(0, panel.parent.transform.childCount);
-                    each.SetSiblingIndex(rand);
-                    each.GetComponent<Card>().ShowPlaceHolder();
-                }
-            }
+            //         int rand = Random.Range(0, panel.parent.transform.childCount);
+            //         each.SetSiblingIndex(rand);
+            //         each.GetComponent<Card>().ShowPlaceHolder();
+            //     }
+            // }
 
-            // start Playing
-
+            // // start Playing
         }
     }
 }

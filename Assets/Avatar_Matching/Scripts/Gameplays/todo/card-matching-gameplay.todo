@@ -1,0 +1,17 @@
+เกมจับคู่:
+    วิธีการเล่น:
+        แต่ละเลเวล:
+            ☐ สุ่มจำนวนไพ่ มา 18 ใบ
+            ☐ ผู้เล่นต้องจับคู่ไพ่จำนวน 9 คู่
+            ☐ ถ้าผู้เล่นจับคู่ผิดเกิน 5 ครั้ง = แพ้
+            ☐ ถ้าผู้เล่นจับคู่ถูกครบ 9 คู่ = ชนะ
+
+Data Class:
+    ☐ CardPooling.cs
+    ☐ CardStaticProfile.cs
+
+Behaviour Class:
+    ☐ CardMatchingGameplay.cs
+        Control Behaviour:
+            ☐ StartLevel()
+            ☐ End()
