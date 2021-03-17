@@ -11,13 +11,12 @@ NOTE:
 
 using System.Collections;
 using System.Collections.Generic;
-using Avartar_Matching.Cards;
 using UnityEngine;
 
-namespace Avartar_Matching.Cards.Statics
+namespace Avartar_Matching
 {
-    public class CardStaticProfile
+    public class CardMatchingUI : MonoBehaviour
     {
-        public static List<Card> all = new List<Card>();
+    
     }
 }

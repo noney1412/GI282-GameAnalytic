@@ -15,7 +15,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
 
-namespace Avartar_Matching.Cards.Services
+namespace Avartar_Matching.Gameplays.Cards.Services
 {
     public static class Shuffling
     {

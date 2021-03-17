@@ -11,15 +11,15 @@ NOTE:
 
 using System.Collections;
 using System.Collections.Generic;
-using Avartar_Matching.Cards;
 using UnityEngine;
-using UnityEngine.UI;
 
-namespace Avartar_Matching.UIs
+namespace Avartar_Matching.Gameplays.Cards.Services
 {
-    public class LevelPanel : MonoBehaviour
+    public static class Matching
     {
-        public Text level;
-        public GridLayoutGroup parent;
+        public static bool MatchByName(this Card self, Card other)
+        {
+            return self.name.Equals(other.name);
+        }
     }
 }

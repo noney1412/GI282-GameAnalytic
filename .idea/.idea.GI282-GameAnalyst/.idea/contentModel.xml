@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\nonpa\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\nonpa\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_GI282-GameAnalyst.-750022607.00" t="ExcludeRecursive" />
+    <e p="E:\GI282-GameAnalyst" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Avatar_Matching" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Gameplays" t="Include">
+              <e p="CardMatchingGameplay.cs" t="Include" />
+              <e p="Cards" t="Include">
+                <e p="Card.cs" t="Include" />
+                <e p="CardPooling.cs" t="Include" />
+                <e p="Services" t="Include">
+                  <e p="Matching.cs" t="Include" />
+                  <e p="Picking.cs" t="Include" />
+                  <e p="Shuffling.cs" t="Include" />
+                </e>
+                <e p="Statics" t="Include">
+                  <e p="CardStaticProfile.cs" t="Include" />
+                </e>
+              </e>
+              <e p="UIs" t="Include">
+                <e p="CardMatchingUI.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="CHANON" t="Include">
+          <e p="BrokenVector" t="Include">
+            <e p="FavoritesList" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Constants.cs" t="Include" />
+                <e p="DrawableObject.cs" t="Include" />
+                <e p="Globals.cs" t="Include" />
+                <e p="ListData.cs" t="Include" />
+                <e p="ListDataInspector.cs" t="Include" />
+                <e p="MainWindow.cs" t="Include" />
+                <e p="ObjectReference.cs" t="Include" />
+                <e p="Utils" t="Include">
+                  <e p="AssetPrefs.cs" t="Include" />
+                  <e p="AssetUtils.cs" t="Include" />
+                  <e p="Base64.cs" t="Include" />
+                  <e p="SearchUtils.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Readme.txt" t="Include" />
+            </e>
+          </e>
+          <e p="DevPalette" t="Include">
+            <e p="Editor" t="Include">
+              <e p="DevPaletteWindow.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="DevPalette.cs" t="Include" />
+              <e p="DevPaletteEntry.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Editor" t="Include">
+            <e p="81-C# Script-NewBehaviourScript.cs.txt" t="Include" />
+            <e p="EditorCollapseAll.cs" t="Include" />
+            <e p="PluginsEditorOnCreateScript.cs" t="Include" />
+          </e>
+          <e p="Hierarchy 2" t="Include">
+            <e p="Editor" t="Include">
+              <e p="GroupSelection.cs" t="Include" />
+              <e p="HierarchyCanvas.cs" t="Include" />
+              <e p="HierarchyEditor.cs" t="Include" />
+              <e p="HierarchyFolderEditor.cs" t="Include" />
+              <e p="HierarchyLocalDataEditor.cs" t="Include" />
+              <e p="HierarchyResources.cs" t="Include" />
+              <e p="HierarchySettings.cs" t="Include" />
+              <e p="IHierarchyElement.cs" t="Include" />
+              <e p="IHierarchyShelf.cs" t="Include" />
+              <e p="InstantInspector.cs" t="Include" />
+              <e p="ObjectCustomization.cs" t="Include" />
+              <e p="OpenSettings.cs" t="Include" />
+              <e p="SceneRenamePopup.cs" t="Include" />
+              <e p="SelectionsRenamePopup.cs" t="Include" />
+            </e>
+            <e p="Runtime" t="Include">
+              <e p="CustomRowItem.cs" t="Include" />
+              <e p="HierarchyFolder.cs" t="Include" />
+              <e p="HierarchyLocalData.cs" t="Include" />
+              <e p="Texture2DExtensions.cs" t="Include" />
+              <e p="UIElements.cs" t="Include" />
+              <e p="VisualElementExstensions.cs" t="Include" />
+            </e>
+          </e>
+          <e p="TransformReset" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Readme.txt" t="Include" />
+              <e p="TransformReset.cs" t="Include" />
+              <e p="version changes.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="GI282-GameAnalyst.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

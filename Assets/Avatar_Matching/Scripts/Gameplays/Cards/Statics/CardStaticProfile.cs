@@ -9,17 +9,14 @@ NOTE:
 **/
 #endregion
 
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-namespace Avartar_Matching.UIs
+namespace Avartar_Matching.Gameplays.Cards.Statics
 {
-    public class StartPanel : MonoBehaviour
+    public class CardStaticProfile
     {
-        public Text tile;
-        public Button start;
+        public static List<Card> all = new List<Card>();
     }
 }

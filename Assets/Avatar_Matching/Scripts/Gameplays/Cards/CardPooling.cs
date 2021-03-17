@@ -9,15 +9,13 @@ NOTE:
 **/
 #endregion
 
-using System.Collections;
 using System.Collections.Generic;
-using Avartar_Matching.Cards;
-using Avartar_Matching.Cards.Statics;
 using UnityEngine;
+using Avartar_Matching.Gameplays.Cards.Statics;
 
-namespace Avartar_Matching.Gameplay
+namespace Avartar_Matching.Gameplays.Cards
 {
-    public class Loader : MonoBehaviour
+    public class CardPooling : MonoBehaviour
     {
         [Header("Image")]
         public Sprite placeholder;
@@ -32,6 +30,7 @@ namespace Avartar_Matching.Gameplay
             foreach (var card in cardImages)
             {
                 var prefab = Instantiate<Card>(cardPrefab, parent);
+                prefab.gameObject.name = card.name;
                 prefab.name = card.name;
                 prefab.avatar = card;
                 prefab.placeholder = placeholder;
